@@ -37,6 +37,8 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
+    
+    
     $("#contact-form").submit(function (event) {
        
         var params=
@@ -75,7 +77,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Software Development","Full Stack development","Artificial intelligence"],
+    strings: ["Software Development", "Full Stack Development", "Artificial intelligence"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
