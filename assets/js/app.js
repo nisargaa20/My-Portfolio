@@ -5,7 +5,7 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 100,
         "density": {
           "enable": true,
           "value_area": 800
@@ -30,21 +30,21 @@ particlesJS('particles-js',
         }
       },
       "opacity": {
-        "value": 0.5,
-        "random": false,
+        "value": 0.7, // Increased opacity for more visible particles
+        "random": true, // Made opacity random
         "anim": {
-          "enable": false,
+          "enable": true, // Enabled animation for opacity
           "speed": 1,
           "opacity_min": 0.1,
           "sync": false
         }
       },
       "size": {
-        "value": 5,
+        "value": 6, // Increased size of particles
         "random": true,
         "anim": {
-          "enable": false,
-          "speed": 40,
+          "enable": true, // Enabled animation for size
+          "speed": 10,
           "size_min": 0.1,
           "sync": false
         }
@@ -52,19 +52,19 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#000000",
-        "opacity": 0.4,
+        "color": "#000000", // Changed lines to blue
+        "opacity": 0.6, // Increased opacity of lines
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 4, // Reduced speed for smoother movement
         "direction": "none",
-        "random": false,
+        "random": true, // Made movement random
         "straight": false,
         "out_mode": "out",
         "attract": {
-          "enable": false,
+          "enable": true, // Enabled attraction
           "rotateX": 600,
           "rotateY": 1200
         }
@@ -75,11 +75,11 @@ particlesJS('particles-js',
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "bubble" // Changed hover mode to bubble
         },
         "onclick": {
           "enable": true,
-          "mode": "push"
+          "mode": "repulse" // Changed click mode to repulse
         },
         "resize": true
       },
@@ -91,14 +91,14 @@ particlesJS('particles-js',
           }
         },
         "bubble": {
-          "distance": 400,
-          "size": 40,
-          "duration": 2,
-          "opacity": 8,
+          "distance": 200, // Reduced distance for bubble effect
+          "size": 10, // Reduced size for bubble effect
+          "duration": 1,
+          "opacity": 1, // Increased opacity for bubble effect
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 150 // Reduced distance for repulse effect
         },
         "push": {
           "particles_nb": 4
@@ -111,7 +111,7 @@ particlesJS('particles-js',
     "retina_detect": true,
     "config_demo": {
       "hide_card": false,
-      "background_color": "#000000",
+      "background_color": "#333333", // Dark gray background
       "background_image": "",
       "background_position": "50% 50%",
       "background_repeat": "no-repeat",
