@@ -226,6 +226,8 @@ header .navbar ul li a:hover {
   font-size: 5rem;
   font-weight: 800;
   color: #002057;
+  margin-top: rem; 
+  
 }
 .home .content h2 span {
   font-size: 5rem;
@@ -913,6 +915,16 @@ header .navbar ul li a:hover {
 /* experience media queries ends */
 /* experience section ends */
 
+
+
+
+
+
+
+
+
+
+
 /* contact section starts */
 .contact {
   background: #e5ecfb;
@@ -1427,3 +1439,4 @@ form .button-area {
   background: url('../images/leetcode.png') no-repeat center;
   background-color:#007bb6;
 }
+
